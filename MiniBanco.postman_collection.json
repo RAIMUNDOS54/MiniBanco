@@ -421,7 +421,7 @@
 									"}",
 									"else",
 									"{",
-									"    console.log(\"Token recebido anteriormente sendo usado: \" + token);",
+									"    console.log(\"Token recebido anteriormente sendo usado: \" + pm.collectionVariables.get(\"Token\"));",
 									"}",
 									""
 								]
@@ -598,7 +598,7 @@
 		},
 		{
 			"key": "baseUrl",
-			"value": "168.138.149.235:8084",
+			"value": "http://168.138.149.235:8084",
 			"type": "string"
 		},
 		{
